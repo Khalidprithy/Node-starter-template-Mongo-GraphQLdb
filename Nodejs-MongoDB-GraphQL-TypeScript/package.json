@@ -1,0 +1,33 @@
+{
+   "name": "nodejs-mongodb-graphql-typescript",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "npx ts-node src/app.ts",
+      "start-dev": "nodemon --exec ts-node src/app.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/bcrypt": "^5.0.2",
+      "@types/node": "^20.10.5",
+      "apollo-server-express": "^3.13.0",
+      "bcrypt": "^5.1.1",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "graphql": "^15.8.0",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.0.3",
+      "reflect-metadata": "^0.2.1",
+      "type-graphql": "^1.1.1"
+   },
+   "devDependencies": {
+      "@types/jsonwebtoken": "^9.0.5",
+      "nodemon": "^3.0.2",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.3.3"
+   }
+}
